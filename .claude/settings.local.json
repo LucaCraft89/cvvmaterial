@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub *)",
+      "Read(//home/luca/flutter/bin/**)",
+      "Read(//home/luca/development/flutter/**)",
+      "Bash(/home/luca/flutter/bin/flutter pub *)",
+      "Bash(/home/luca/flutter/bin/flutter analyze *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(flutter analyze *)",
+      "Bash(~/.local/bin/flutter analyze *)",
+      "Bash(grep -v \"^$\\\\|^Analyzing\\\\|^No issues\")",
+      "Bash(~/.flutter/bin/flutter analyze *)",
+      "Bash(/home/luca/flutter/bin/flutter --version)",
+      "Bash(grep -v \"^$\\\\|^Analyzing\")",
+      "Bash(grep -v \"^$\\\\|^Analyzing\\\\|withOpacity\")",
+      "Bash(grep -v \"^$\\\\|^Analyzing\\\\|ran in\")",
+      "Bash(grep -v \"withOpacity\\\\|^$\\\\|^Analyzing\\\\|ran in\")",
+      "Bash(/home/luca/flutter/bin/dart analyze *)",
+      "Bash(xargs ls -la)",
+      "Bash(/home/luca/flutter/bin/flutter build *)"
+    ]
+  }
+}
